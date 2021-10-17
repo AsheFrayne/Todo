@@ -16,12 +16,16 @@
         <form>
             <input type="text" name="todo-text" class="input">
             <button id="submit"><i class="fas fa-plus-square"></i></button>
+            <div class='select'>
+                <select name="todos" class="filter">
+                    <option value="all">All</option>
+                    <option value="completed">Completed</option>
+                    <option value="uncomplete">Uncompleted</option>
+                </select>
+            </div>
         </form>
     <div class="todo-container">
-        <ul id="todo-list">
-                
-                
-        </ul>
+        <ul id="todo-list"></ul>
     </div>
     
     <script src="index.js"></script>
